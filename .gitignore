@@ -1,3 +1,5 @@
 build
 node_modules
-client/src/contracts
+
+client/.next
+client/contracts

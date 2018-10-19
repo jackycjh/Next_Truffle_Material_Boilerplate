@@ -1,22 +1,20 @@
 {
-  "name": "client",
+  "name": "next-truffle-material-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
-    "truffle-contract": "^4.0.0-next.0",
+    "truffle-contract": "^3.0.6",
     "web3": "^1.0.0-beta.35"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "dev": "node server.js",
     "link-contracts": "run-script-os",
-    "link-contracts:linux:darwin": "cd src && ln -s ../../build/contracts contracts",
-    "link-contracts:win32": "cd src && mklink /d contracts ..\\..\\build\\contracts"
+    "link-contracts:linux:darwin": "ln -s ../build/contracts contracts",
+    "link-contracts:win32": "mklink /d contracts ..\\build\\contracts"
   },
   "devDependencies": {
     "run-script-os": "^1.0.3"
