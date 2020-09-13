@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}

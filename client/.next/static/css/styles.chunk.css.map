@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./pages/index.css"],"sourcesContent":["body {\r\n  height: 100vh;\r\n  margin: 0px;\r\n}\r\n\r\n.nav {\r\n  position: fixed;\r\n  bottom: 0px;\r\n  width: 100%;\r\n}"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;","sourceRoot":""}
