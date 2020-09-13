@@ -48,7 +48,12 @@ export default class Layout extends Component {
     return (
       <div>
         <Head>
-          {/* <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css" /> */}
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+          <title>Next Truffle Material</title>
         </Head>
 
         {this.props.children}
