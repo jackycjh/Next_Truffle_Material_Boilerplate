@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Next Truffle Material Boilerplate
+description: A quick-start template for DApp prototyping with Truffle for Ethereum Solidity, React.js front-end with Material-UI, and served with Next.js
+show_downloads: true
+logo: box-img-lg.png
